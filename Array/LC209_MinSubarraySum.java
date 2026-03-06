@@ -1,5 +1,5 @@
-//Leetcode question no - 209
-// Approach - sliding window 
+//Leetcode question no - 209 
+//Approach - sliding window Approach (bcz array is postive)
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
         int left = 0;
@@ -15,7 +15,6 @@ class Solution {
                 left++;
             }
         }
-
         return minLen == Integer.MAX_VALUE ? 0 : minLen;
     }
 }
