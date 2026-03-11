@@ -20,7 +20,6 @@ public class LC128_LongestConsecutive {
 
             longest = Math.max(longest, count);
         }
-
         return longest;
     }
 
@@ -30,4 +29,5 @@ public class LC128_LongestConsecutive {
 
         System.out.println(longestConsecutive(nums));
     }
+
 }
